@@ -10,8 +10,8 @@ collections:
     output: true
 email: your-email@fmrsa.com
 description: FMRSA website
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: jekyllrb
 github_username: jekyll
 plugins:
