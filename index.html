@@ -1,1 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title></title>
+</head>
+<body>
+	
+    <nav class="bg-white px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b border-yellow-400 h-20">
+      <div class="container flex flex-wrap justify-between items-center mx-auto h-full">
+      <a href="" class="flex items-center">
+          <img src="/assets/images/welcome/logo.png" class="mr-3 h-6 sm:h-9" alt="FMR Logo">
+      </a>
+      <div class="flex md:order-2">
+        <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex justify-center items-center px-3 py-2 text-sm text-gray-500 rounded cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+          <svg class="mr-2 w-5 h-5 rounded-full" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3900 3900"><path fill="#b22234" d="M0 0h7410v3900H0z"/><path d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0" stroke="#fff" stroke-width="300"/><path fill="#3c3b6e" d="M0 0h2964v2100H0z"/><g fill="#fff"><g id="d"><g id="c"><g id="e"><g id="b"><path id="a" d="M247 90l70.534 217.082-184.66-134.164h228.253L176.466 307.082z"/><use xlink:href="#a" y="420"/><use xlink:href="#a" y="840"/><use xlink:href="#a" y="1260"/></g><use xlink:href="#a" y="1680"/></g><use xlink:href="#b" x="247" y="210"/></g><use xlink:href="#c" x="494"/></g><use xlink:href="#d" x="988"/><use xlink:href="#c" x="1976"/><use xlink:href="#e" x="2470"/></g></svg>
+          English (US)
+        </button>
+          <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+        </button>
+      </div>
+      <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:font-medium md:border-0 md:bg-white">
+          <li>
+            <a href="#" class="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent md:text-yellow-400 md:p-0 dark:text-white" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-400 md:p-0">Quem Somos</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-400 md:p-0">O Nosso Processo</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-400 md:p-0">O Seu Arquivo</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-400 md:p-0">Contactos</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+	<style>
+    header#landing-section {
+        background-image: url("/assets/images/welcome/fachada.jpg");
+    }
+</style>
 
+<header id="landing-section" class="h-screen m-auto mb-12 bg-fixed bg-center bg-cover">
+    <div class="container flex items-center mx-auto h-full">
+        <article class="p-8 w-full md:w-3/5 bg-white rounded-lg border border-gray-200 shadow-md">
+            <h1 class="text-5xl font-bold tracking-tight text-gray-900">FMR</h1>
+            <p class="my-8 text-3xl font-normal text-gray-700 dark:text-gray-400">Mais de 50 anos de especialização na recuperação de resíduos e papel.</p>
+            <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-900 bg-yellow-400 rounded-lg hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300">
+                Peça já o seu orçamento
+                <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </a>
+        </article>
+    </div>
+</header>
+
+	<section>
+    <div class="container mx-auto py-14">
+        <h1 class="text-5xl text-center mb-14 uppercase">Quem Somos</h1>
+        <p class="text-center text-2xl">Uma frase aqui sobre a FRM</p>
+    </div>
+</section>
+<section class="bg-yellow-400 pb-14">
+    <div class="container mx-auto">
+        <div class="flex w-full">
+            <div class="w-1/2 p-14">
+                <article class="prose p-8 bg-white rounded-lg border">
+                    <p class="mb-8">
+                        A Francisco Marques Rodrigues, SA (FMR) é uma empresa especializada na recuperação de resíduos com o objectivo de encaminhá-los para a reciclagem.
+                    </p>
+                    <p class="mb-8">
+                        Os Resíduos são entregues nas nossas instalações ou recolhidos pelas nossas viaturas. Efectuamos a triagem de acordo com as características dos diferentes materiais e reencaminhamos os mesmos para a reciclagem.
+                    </p>
+                    <p>
+                        O nosso alvará permite-nos trabalhar com uma grande variedade de resíduos. Consulte aqui o nosso alvará e a listagem de resíduos com que trabalhamos: <a href="" class="text-yellow-400">Alvará FMR</a>
+                    </p>
+                    <hr class="my-14 mx-auto w-48 h-1 bg-gray-100 rounded border-0">
+                    <div class="mb-14">
+                        <h4 class="text-2xl mb-4">
+                            Os nossos valores
+                        </h4>
+                        <p>
+                            Orientação para o Cliente - Confiança, Satisfação e Compromisso.
+                        </p>
+                        <p>
+                            Orientação para o Fornecedor - Focalização nas necessidades, flexibilidade.
+                        </p>
+                        <p>
+                            Transparência
+                        </p>
+                    </div>
+
+                    <div class="mb-14">
+                        <h4 class="text-2xl mb-4">
+                            A nossa visão
+                        </h4>
+                        <p>
+                            Ser a empresa de referência a nível nacional na recuperação de papel para reciclagem.
+                        </p>
+                    </div>
+
+                    <div class="mb-14">
+                        <h4 class="text-2xl mb-4">
+                            A nossa missão
+                        </h4>
+                        <p>
+                            Atingir as necessidades e expectativas dos nossos parceiros, colaboradores e acionistas.
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <article class="w-1/2">
+                    <ol class="relative border-l border-gray-900 pt-14">                  
+        <li class="mb-10 ml-4">
+            <div class="absolute w-3 h-3 bg-gray-900 rounded-full mt-3 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <h3 class="text-2xl mb-4 font-semibold text-gray-900">
+                <time class="font-normal leading-none">1961</time>
+            </h3>
+            <article class="p-8 bg-white rounded-lg border">
+                <p class="text-base font-normal text-gray-700">Criação da empresa Francisco Marques Rodrigues pelo acionista único Francisco Marques Rodrigues. As instalações iniciais eram localizadas em Sacavém.</p>
+            </article>
+        </li>
+
+        <li class="mb-10 ml-4">
+            <div class="absolute w-3 h-3 bg-gray-900 rounded-full mt-3 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <h3 class="text-2xl mb-4 font-semibold text-gray-900">
+                <time class="font-normal leading-none">1973</time>
+            </h3>
+            <article class="p-8 bg-white rounded-lg border">
+                <p class="text-base font-normal text-gray-700">Alteração do pacto social para Francisco Marques Rodrigues, LDA.</p>
+            </article>
+        </li>
+
+        <li class="mb-10 ml-4">
+            <div class="absolute w-3 h-3 bg-gray-900 rounded-full mt-3 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <h3 class="text-2xl mb-4 font-semibold text-gray-900">
+                <time class="font-normal leading-none">1996</time>
+            </h3>
+            <article class="p-8 bg-white rounded-lg border">
+                <p class="text-base font-normal text-gray-700">Mudança de instalações para Camarate. A FMR beneficiou de uma localização mais central, bem como de uma maior área para armazenamento de stocks.</p>
+            </article>
+        </li>
+
+        <li class="mb-10 ml-4">
+            <div class="absolute w-3 h-3 bg-gray-900 rounded-full mt-3 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <h3 class="text-2xl mb-4 font-semibold text-gray-900">
+                <time class="font-normal leading-none">2002</time>
+            </h3>
+            <article class="p-8 bg-white rounded-lg border">
+                <p class="text-base font-normal text-gray-700">Abertura de novas instalações em São Paio de Oleiros - Santa Maria da Feira.</p>
+            </article>
+        </li>
+
+        <li class="mb-10 ml-4">
+            <div class="absolute w-3 h-3 bg-gray-900 rounded-full mt-3 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <h3 class="text-2xl mb-4 font-semibold text-gray-900">
+                <time class="font-normal leading-none">2007</time>
+            </h3>
+            <article class="p-8 bg-white rounded-lg border">
+                <p class="text-base font-normal text-gray-700">Instalação de um Centro de Triagem na unidade de produção de camarate. Através de uma mistura de processos automáticos e manuais, é possível processar quantidades de papel e cartão superiores a 20.000 ton/ano.</p>
+            </article>
+        </li>
+
+        <li class="mb-10 ml-4">
+            <div class="absolute w-3 h-3 bg-gray-900 rounded-full mt-3 -left-1.5 border border-white"></div>
+            <h3 class="text-2xl font-semibold text-gray-900">
+                Faça também parte da nossa história
+            </h3>
+        </li>
+    </ol>
+            </article>
+        </div>
+        
+    </div>
+</section>
+	<style>
+    #resi-pickup {
+        background-image: url("/assets/images/welcome/RECOLHA RESIDUOS.jpg");
+        clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+    }
+
+    #triage {
+        background-image: url("/assets/images/welcome/PROCESSO TRIAGEM.jpg");
+        clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 5% 100%, 0% 50%);
+    }
+
+    #process {
+        background-image: url("/assets/images/welcome/PROCESSO ENFARDAMENTO.jpg");
+        clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+    }
+
+    #transport {
+        background-image: url("/assets/images/welcome/EXPEDIÇÃO.jpg");
+        clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 5% 100%, 0% 50%);
+    }
+</style>
+
+<section>
+    <div class="container mx-auto py-14">
+        <h1 class="text-5xl text-center mb-14 uppercase">O Nosso Processo</h1>
+        <p class="text-center text-2xl">Descubra como trabalhamos</p>
+
+        <hr class="my-4 mx-auto w-48 h-1 bg-gray-100 rounded border-0 md:my-10">
+
+        <div class="flex flex-wrap justify-center">
+            <div class="w-full sm:w-1/2 md:w-1/4 mb-4 px-2">
+              <div class="flex flex-col rounded-lg overflow-hidden bg-white drop-shadow-2xl">
+                <img class="h-96 w-full object-cover" src="/assets/images/welcome/RECOLHA RESIDUOS.jpg" alt="Recolha Resíduos" />
+                <div class="flex-1 px-6 py-4">
+                  <div class="font-bold text-center text-2xl mb-2 uppercase text-yellow-400">Recolha Resíduos</div>
+                  <p class="text-gray-700 text-base">A FMR encontra-se dotada de equipamentos e de skills que lhe permite responder a uma grande variedade de serviços. Por norma o processo de recolha de resíduos segue o seguinte fluxo:
+                    <ol class="mt-4">
+                        <li>
+                            1 - Contacto e visita às instalações do cliente, com o objectivo de averiguar condições de carga, armazenamento e tipologia do resíduo;
+                        </li>
+                        <li>
+                            2 - Apresentação de proposta formal, para aquisição do resíduo;
+                        </li>
+                        <li>
+                            3 - Implementação e acompanhamento técnico;
+                        </li>
+                        <li>
+                            4 - Transporte, pesagem e tratamento dos resíduos nas instalações da FMR em Camarate ou São Paio de Oleiros.</p>
+                        </li>
+                    </ol>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full sm:w-1/2 md:w-1/4 mb-4 px-2">
+                <div class="h-full flex flex-col rounded-lg overflow-hidden bg-white drop-shadow-2xl">
+                    <img class="h-96 w-full object-cover" src="/assets/images/welcome/PROCESSO TRIAGEM.jpg" alt="Processo de Triagem" />
+                    <div class="flex-1 px-6 py-4">
+                    <div class="font-bold text-center text-2xl mb-2 uppercase text-yellow-400">Processo Triagem</div>
+                    <p class="text-gray-700 text-base">A triagem dos diferentes resíduos é executada através de processos manuais e automáticos que recorrem a tecnologia avançada. O nosso centro é constituído por tapetes de alimentação, pisos móveis, destroçadores de fardos, separadores balísticos, por um dispositivo óptico e por uma secção manual o que possibilita uma correcta separação entre os diferentes tipos de materiais, assegurando também que os nossos fardos tenham uma baixa ou nula quantidade de contaminantes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full sm:w-1/2 mb-4 md:w-1/4 px-2">
+                <div class="h-full flex flex-col rounded-lg overflow-hidden bg-white drop-shadow-2xl">
+                  <img class="h-96 w-full object-cover" src="/assets/images/welcome/PROCESSO ENFARDAMENTO.jpg" alt="Processo De Enfardamento" />
+                  <div class="flex-1 px-6 py-4">
+                    <div class="font-bold text-center text-2xl mb-2 uppercase text-yellow-400">Processo de Enfardamento</div>
+                    <p class="text-gray-700 text-base">
+                        O processo de enfardamento destina-se a gerar fardos do material previamente triado.Durante este processo, os nossos colaboradores asseguram a qualidade da mercadoria efectuando uma última triagem junto do tapete de enfardamento.
+                    </p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="w-full sm:w-1/2 md:w-1/4 mb-4 px-2">
+                <div class="h-full flex flex-col rounded-lg overflow-hidden bg-white drop-shadow-2xl">
+                    <img class="h-96 w-full object-cover" src="/assets/images/welcome/EXPEDIÇÃO.jpg" alt="Expedição e Transporte" />
+                    <div class="flex-1 px-6 py-4">
+                    <div class="font-bold text-center text-2xl mb-2 uppercase text-yellow-400">Expedição e Transporte</div>
+                    <p class="text-gray-700 text-base">Na última etapa do ciclo, a mercadoria é armazenada em local apropriado de forma a facilitar a expedição. O transporte até ao destino final poderá ser assegurado quer pelas nossas viaturas, quer por viaturas enviadas pelos nossos clientes. Em alguns casos, o transporte é efectuado em contentores ou comboio.</p>
+                    </div>
+                </div>
+            </div>
+
+
+          </div>
+</section>
+	<style>
+    #archive-pickup {
+        background-image: url("/assets/images/welcome/archive1.jpg");
+        clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+    }
+    #archive-destruction {
+        background-image: url("/assets/images/welcome/shredder.jpg");
+        clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 5% 100%, 0% 50%);
+    }
+</style>
+
+<section class="my-14">
+    <h1 class="text-5xl text-center mb-14 uppercase">O Seu Arquivo</h1>
+    <p class="text-center text-2xl">Uma frase aqui sobre o processo de destruição de arquivos de cliente.</p>
+</section>
+
+<div class="flex">
+    <div id="archive-pickup" class="w-1/2 h-[600px] bg-cover">
+    </div>
+    <div class="w-1/2 flex items-center pl-14">
+        <div>
+            <h3 class="text-3xl mb-8 text-yellow-400">
+                RECOLHA E TRANSPORTE DO SEU ARQUIVO
+            </h3>
+            <p class="mb-2">
+                Disponibilizamos Contentores, Grades, Big Bags para armazenar os seus resíduos.
+            </p>
+            <p>
+                Efectuamos o transporte do seu arquivo até às nossas instalações.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="flex -mt-[100px]">
+    <div class="w-1/2 flex items-end justify-end pr-14 pb-14">
+        <div class="max-w-[700px]">
+            <h3 class="text-3xl mb-8 text-yellow-400">
+                RECOLHA E TRANSPORTE DO SEU ARQUIVO
+            </h3>
+            <p class="mb-4">
+                A Francisco Marques Rodrigues SA garante que a destruição dos seus desperdícios, documentação e material obsoleto decorra de forma eficiente e confidencial. Mediante marcação, esta destruição pode ser assistida por si, e/ou pela Autoridade Tributária e Aduaneira.
+            </p>
+            <p class="mb-4">
+                Todo o material passível de reciclagem é processado e encaminhado para a indústria recicladora. Este processo aumenta o ciclo de vida dos materiais reciclados, contribuindo assim para uma redução dos impactos ambientais.
+            </p>
+            <p>
+                Sempre que solicitado, emitimos um auto de destruição que assegura a confidencialidade e a destruição da documentação para efeitos fiscais.
+            </p>            
+        </div>
+    </div>
+    <div id="archive-destruction" class="w-1/2 min-h-[600px] bg-cover">
+    </div>
+</div>
+
+	
+<section class="my-32 relative p-32 bg-slate-700">
+    <div class="container px-14">
+        <h1 class="text-5xl text-center text-white uppercase mb-32">CONTINUA COM DÚVIDAS?</h1>
+        <div class="grid grid-cols-4 text-white gap-14">
+            <div class="text-center">
+                <div class="flex justify-center mb-8">
+                    <svg class="w-24 h-24" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.121 15.536c-1.171 1.952-3.07 1.952-4.242 0-1.172-1.953-1.172-5.119 0-7.072 1.171-1.952 3.07-1.952 4.242 0M8 10.5h4m-4 3h4m9-1.5a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div> 
+                <p class="text-lg">
+                    Valorize os seus desperdícios (dependente do transporte e quantidades)
+                </p>
+            </div>
+            <div class="text-center">
+                <div class="flex justify-center mb-8">
+                    <svg class="w-24 h-24" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div> 
+                <p class="text-lg">
+                    Cada 50 quilos de papel usado e transformado em papel novo, evita que uma árvore seja cortada
+                </p>
+            </div>
+            <div class="text-center">
+                <div class="flex justify-center mb-8">
+                    <svg class="w-24 h-24" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                </div> 
+                <p class="text-lg">
+                    A Reciclagem contribui para a criação de postos de trabalho
+                </p>
+            </div>
+            <div class="text-center">
+                <div class="flex justify-center mb-8">
+                    <svg class="w-24 h-24" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                </div> 
+                <p class="text-lg">
+                    Poupa energia, uma vez que a fabricação de produtos gerados a partir de materiais reciclados despende menos energia quando comparada à produção que utiliza matéria-prima virgem
+                </p>
+            </div>
+        </div>
+        <h1 class="text-5xl text-center text-white uppercase mt-32">NÃO HESITE! <a href="" class="text-yellow-400 underline">Peça já o seu orçamento</a></h1>
+    </div>
+</section>
+	<section class=" my-14">
+    <div class="container mx-auto my-32">
+        <h1 class="text-5xl text-center mb-32 uppercase">CONTACTOS</h1>
+        <div class="grid grid-cols-2">
+            <div class="bg-gray-300 min-h-[400px]">map</div>
+            <div class="flex flex-col p-14 justify-between">
+                <div>address</div>
+                <div>phone</div>
+                <div>fax</div>
+                <div>email</div>
+            </div>
+        </div>
+    </div>
+
+</section>
+	<footer class="bg-white">
+    <div class="bg-yellow-200">
+        <div class="container mx-auto md:flex md:justify-between md:align-middle py-10">
+            <div class="mb-6 md:mb-0">
+                <a href="" class="flex items-center">
+                    <img src="/assets/images/welcome/logo.png" class="mr-3 h-8" alt="FMR Logo" />
+                </a>
+            </div>
+                <p class="text-sm m-0">
+                    Quinta de Pau Varais – Az. Fetais Apartado 1123, 2686-801 Camarate, tel: +351 219480326 | fax: +351 219478352
+                </p>
+        </div>
+    </div>
+    
+    <div class="bg-yellow-400">
+        <div class="container mx-auto sm:flex sm:items-center sm:justify-between py-10">
+            <span class="text-sm text-gray-900 sm:text-center dark:text-gray-400">© 2022 <a href="" class="hover:underline">Francisco Marques Rodrigues SA</a>.
+            </span>
+            <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+                <a href="#" class="text-gray-900 hover:text-gray-900 dark:hover:text-white">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                    <span class="sr-only">Facebook page</span>
+                </a>
+                <a href="#" class="text-gray-900 hover:text-gray-900 dark:hover:text-white">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" /></svg>
+                    <span class="sr-only">Instagram page</span>
+                </a>
+                <a href="#" class="text-gray-900 hover:text-gray-900 dark:hover:text-white">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /></svg>
+                    <span class="sr-only">Twitter page</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
