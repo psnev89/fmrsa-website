@@ -10,12 +10,13 @@ collections:
     output: true
 email: your-email@fmrsa.com
 description: FMRSA website
-baseurl: 
-url: 
+baseurl: ''
+url: ''
 twitter_username: jekyllrb
 github_username: jekyll
 plugins:
 - jekyll-postcss
+- jekyll-leaflet
 sass:
   sourcemap: never
 postcss:
