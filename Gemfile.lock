@@ -30,6 +30,7 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
+    jekyll-leaflet (0.2.1)
     jekyll-postcss (0.5.0)
     jekyll-sass-converter (2.2.0)
       sassc (> 2.0.1, < 3.0)
@@ -67,6 +68,7 @@ PLATFORMS
 DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll
+  jekyll-leaflet
   jekyll-postcss
   tzinfo (>= 1, < 3)
   tzinfo-data

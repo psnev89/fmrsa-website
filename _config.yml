@@ -9,6 +9,7 @@ twitter_username: jekyllrb
 github_username: jekyll
 plugins:
   - jekyll-postcss
+  - jekyll-leaflet
 sass:
   sourcemap: never
 postcss:
