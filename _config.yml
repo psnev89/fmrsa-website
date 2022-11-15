@@ -10,24 +10,24 @@ collections:
     output: true
 email: your-email@fmrsa.com
 description: FMRSA website
-baseurl: 
-url: 
+baseurl: /fmrsa-website
+url: psnev89.github.io
 twitter_username: jekyllrb
 github_username: jekyll
 plugins:
-- jekyll-postcss
-- jekyll-leaflet
+  - jekyll-postcss
+  - jekyll-leaflet
 sass:
   sourcemap: never
 postcss:
   cache: false
 exclude:
-- ".gitignore"
-- bin
-- node_modules
-- package-lock.json
-- postcss.config.js
-- README.md
+  - ".gitignore"
+  - bin
+  - node_modules
+  - package-lock.json
+  - postcss.config.js
+  - README.md
 keep_files:
-- assets/css/tailwind.css
-- assets/css/tailwind.css.map
+  - assets/css/tailwind.css
+  - assets/css/tailwind.css.map
