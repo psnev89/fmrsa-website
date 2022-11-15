@@ -1,22 +1,12 @@
 ---
+url: "psnev89.github.io"
+baseurl: ""
 title: Francisco Marques Rodrigues
 timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
 email: your-email@fmrsa.com
 description: FMRSA website
-baseurl: /fmrsa-website
-url: psnev89.github.io
 twitter_username: jekyllrb
 github_username: jekyll
-plugins:
-  - jekyll-postcss
-  - jekyll-leaflet
 sass:
   sourcemap: never
 postcss:
